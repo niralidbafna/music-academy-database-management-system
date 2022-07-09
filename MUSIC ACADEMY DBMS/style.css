@@ -1,0 +1,340 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section{
+  padding: 80px;
+}
+/* Add a black background color to the top navigation */
+.nav-bar {
+  padding: 0px;
+  background-color:  rgb(44, 44, 44);
+  overflow: hidden;
+  position: sticky;
+  top: 0px;
+}
+.nav-bar img{
+  height: 80px;
+  float: left;
+
+  margin: 0px 15px 0px 80px;
+  position: relative;
+}
+.nav-bar h1{
+  float: left;
+  padding: 27px;
+  padding-left: 40px;
+  color: white;
+  letter-spacing: 4px;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 22px 25px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgb(99, 153, 224);
+  color: white;
+}
+/*creating banner in css*/
+.banner{
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  color: white;
+}
+
+.banner h2{
+  font-size: 2.5cm;
+  color: #444;
+  font-weight: 300;
+  line-height: 2.5cm;
+  
+}
+.banner h2 span{
+  font-size: 1.2cms;
+  color: #efefef;
+  letter-spacing: 2px; 
+}
+.banner h3{
+  color: rgb(99, 153, 224);
+  font-size: 2 cms;
+  font-weight: 200;
+  position: relative;
+  top: 15px;
+  letter-spacing: 10px;
+}
+.btn{
+  top: 50px;
+  position: relative;
+  background: rgb(99, 153, 224);
+  display: inline-block;
+  color: black;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 18px;  
+}
+.btn:hover{
+  background-color: rgb(99, 224, 151);
+}
+
+
+/* creating About us layout in css */
+.heading{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #111111;
+}
+.heading p{
+  font-style: italic;
+  font-size: 14px;
+}
+.heading h2{
+  font-size: 3em;
+  color: rgb(99, 153, 224);
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  height: 250px;
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+}
+.contentBx{
+  padding-left: 40px;
+  text-align: justify;
+}
+
+.mission{
+  font-weight: 500;
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: rgb(99, 153, 224);
+}
+.contentBx ul{
+  font-weight: 320;
+  margin-bottom: 10px;
+  font-size: 19px;
+}
+.atn{
+  background: rgb(99, 153, 224);
+  display: inline-block;
+  color: black;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 10px;
+  border-radius: 50px;
+}
+.atn:hover{
+  background-color: rgb(99, 224, 151);
+}
+.heading.bottom{
+  display: flex;
+  justify-content: space-between;
+}
+.bt{
+  margin-top: 10px;
+}
+.course{
+  background-color: #D5EBFF;
+  min-height: 70vh;
+}
+.card{
+  background-color: white;
+  float: left;
+  margin: 6px;
+  border-style: solid;
+  border-color: rgb(44, 44, 44);
+  border-width: 2px;
+}
+.card img{
+
+  border-bottom-style: solid;
+  border-bottom-width: .8px;
+  border-bottom-color: rgb(44, 44, 44);;
+}
+.card .caption p{
+  margin-top: 10%;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: rgb(44, 44, 44);
+  font-size: 15px;
+  height: 30px;
+}
+.card .caption .mtheory{
+  margin-top: 2%;
+  margin-bottom: 8%;
+}
+
+.contact{
+  min-height: 50vh;
+  background-color: black;
+  line-height: 1cm;
+  color: white;
+  letter-spacing: 1px;
+}
+.contact .address{
+  float: left;
+  padding-right: 100px;
+}
+.contact .number{
+  float: left;
+  padding-right: 100px;
+}
+.contact .mailid{
+  float: right;
+}
+.contact .heading h2{
+  color: rgb(99, 153, 224);
+}
+.contact h1{
+  color: #444;
+}
+.contact p,a{
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+.contact a:hover{
+  color: rgb(99, 153, 224);;
+}
+
+/* admin page column grid */
+.list{
+  background-color: #111111;
+  min-height: 150vh;
+
+}
+.list h2{
+  color: #444;
+  padding:10px;
+}
+.list ul{
+  list-style-type: none;
+  display: inline-block;
+  padding-top: 15px;
+}
+.list li{
+  height: 70px;
+  width: 100%;
+  padding: 0px 5px;
+}
+
+.list a{
+  display: inline-block;
+  color: #111111;
+  background-color: rgb(99, 153, 224);
+  padding: 10px;
+  margin: 5%;
+  width:350px;
+  text-align: center;
+}
+.list a:hover{
+  background-color: rgb(99, 224, 151);
+}
+.main{
+  background: #111111;
+}
+.main h2{
+  color: white;
+  letter-spacing: 2px;
+}
+.main input[type=text], input[type=number], input[type=email], input[type=textarea], input[type=date], select {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.main h2{
+  color: rgb(99, 153, 224);
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.main label{
+  color: rgb(99, 153, 224);
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.main .submitbtn{
+  padding: 10px;
+  background-color: rgb(99, 153, 224);
+  color: #ffffff;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.main .submitbtn:hover{
+  background-color: rgb(99, 224, 151);
+}
+/* view */
+.view {
+  border-collapse: collapse;
+  width: 100%;
+}
+.view td, .view th {
+  border: 1px solid white;
+  padding: 12px;
+}
+.view tr:nth-child(even){background-color: #f2f2f2;}
+.view tr:hover {background-color: #ddd;}
+.view th {
+  padding-top: 14px;
+  padding-bottom: 14px;
+  text-align: left;
+  background-color: rgb(99, 153, 224);
+  color: white;
+  letter-spacing:2px;
+
+}
+.viewh2{
+  font-size: 1.5cm;
+  color: rgb(99, 153, 224);
+  font-weight: 300;
+  line-height: 2.5cm;
+  background-color:#111111;
+  padding:8px;
+  text-align:center;  
+  letter-spacing: 2px;
+
+}

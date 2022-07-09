@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NIVAAN'S MUSIC ACADEMY</title>
+  <link rel="icon" href="images/logo-circle.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="nav-bar">
+    <div class="title-logo">
+      <img src="images/logo-circle.png" alt="">
+      <h1>NIVAAN'S MUSIC ACADEMY</h1>
+    </div>
+    <div class="topnav">      
+      <a class="active" href="admin.html">Admin</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="index.html#course">Courses</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html">Home</a>
+    </div>
+  </section>
+  <section class="main">
+    <form action="removeroom.php" method="post">
+      <h2>REMOVE ROOM</h2>
+      <hr>
+      <label for="r_id">Room ID: </label>
+      <input type="number" name="r_id" required>
+      <br>
+      <button type="submit" value="submit" name="submit" class="submitbtn">REMOVE ROOM</button>
+
+    </form>
+  </section>
+  
+</body>
+</html>

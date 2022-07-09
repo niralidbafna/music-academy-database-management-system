@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NIVAAN'S MUSIC ACADEMY</title>
+  <link rel="icon" href="images/logo-circle.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="nav-bar">
+    <div class="title-logo">
+      <img src="images/logo-circle.png" alt="">
+      <h1>NIVAAN'S MUSIC ACADEMY</h1>
+    </div>
+    <div class="topnav">      
+      <a class="active" href="admin.html">Admin</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="index.html#course">Courses</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html">Home</a>
+    </div>
+  </section>
+  <section class="main">
+    <form action="addstudent.php" method="post">
+      <h2>ADD STUDENT DETAILS</h2>
+      <hr>
+      <label for="s_id">Student ID: </label>
+      <input type="number" name="s_id" required>
+      <br>
+      <label for="s_name">Student Name: </label>
+      <input type="text" name="s_name" required>
+      <br>
+      <label for="room_id">Room ID: </label>
+      <input type="number" name="room_id">
+      <br>
+      <label for="s_phno">Phone Number: </label>
+      <input type="number" name="s_phno">
+      <br>
+      <label for="s_dob">Date Of Birth: </label>
+      <input type="date" name="s_dob">
+      <br>
+      <label for="s_email">Email ID: </label>
+      <input type="email" name="s_email">
+      <br>
+      <label for="s_address">Address: </label>
+      <input type="textarea" name="s_address">
+      <br>
+      <label for="s_gender">Gender</label>
+      <select name="s_gender">
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Others">Others</option>
+      </select>
+      <br>
+      <button type="submit" value="submit" name="submit" class="submitbtn">ADD STUDENT</button>
+
+    </form>
+  </section>
+  
+</body>
+</html>
